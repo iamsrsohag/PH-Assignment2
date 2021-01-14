@@ -1,0 +1,112 @@
+.logo {
+  width: 280px;
+}
+.landing-area {
+  background-color: #fffbf0;
+}
+.text-yellow,
+.text-blue {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.text-yellow {
+  color: #fabe4c;
+}
+.text-blue {
+  color: #363958;
+}
+.btn-buyNow {
+  background-image: linear-gradient(#a4bc46, #a4bc36);
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+.btn-buyNow:hover {
+  outline: none;
+  background-color: #a4bc46;
+  opacity: 0.8;
+  color: white;
+}
+.cart-icon {
+  background-image: url(../img/cart-icon.png);
+  background-size: cover;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  transform: translateY(20%);
+  margin-right: 10px;
+}
+.model {
+  width: 100%;
+}
+.card-img {
+  background-color: #f1f1f1;
+  text-align: center;
+  border-radius: 10px;
+  width: 95%;
+  margin: 10px auto;
+}
+.card-img > img {
+  width: 50%;
+  height: 250px;
+  padding: 10px;
+}
+.products {
+  border: none;
+  border-radius: 10px;
+}
+.ft-icon {
+  width: 120px;
+  height: 100px;
+  padding: 10px;
+}
+.features-list {
+  border: none;
+  border-radius: 10px;
+}
+.blog-img {
+  width: 100%;
+  height: 200px;
+}
+.contact-us {
+  width: 100%;
+  background: linear-gradient(rgba(10, 12, 12, 0.8), transparent),
+    url(../img/penguin.jpg);
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+.contact-us .container {
+  height: 70vh;
+  text-align: center;
+}
+.contact-us p {
+  font-size: 30px;
+}
+/*Custom Responsive CSS*/
+@media (max-width: 1400px) {
+  .btn-buyNow {
+    padding: 5px 12px;
+    margin-top: 2px;
+  }
+  .ft-icon {
+    padding: 20px;
+  }
+  .ft-description {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .ft-small-screen {
+    text-align: center;
+  }
+  .ft-description {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ft-image {
+    margin-bottom: 20px;
+  }
+}
